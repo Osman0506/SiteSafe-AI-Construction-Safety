@@ -19,8 +19,14 @@
 
 ### 💻 How to Test
 1.  Clone the repository.
-2.  Install dependencies: `pip install -r requirements.txt`
-3.  Run the detector:
-    ```bash
-    python inference.py
-    ```
+2.  Install dependencies: `pip install -r requirements.ritf`
+3.  Run the detector - with the 'Code.py'
+
+    ### 📥 Download the Model
+Due to GitHub file size limits, the trained model weights are hosted externally.
+[👉 Click Here to Download best.pt (Google Drive)](https://drive.google.com/drive/folders/1q9Y6EyhGl8g7J7viVN56xvG3_rTkMej3?usp=share_link)
+
+**Setup:**
+1. Download `best.pt` from the "Models" Folder.
+2. Create a folder named `models` inside this project.
+3. Place `best.pt` inside that folder.
